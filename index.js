@@ -16,7 +16,7 @@ let cursors = {}; // Track cursor positions by socket ID
 // Initialize Socket.io and configure CORS
 const io = new Server(server, {
   cors: {
-    origin: "https://whiteboard-client-t519.onrender.com/", // Allow all origins, you can restrict it to a specific origin for security
+    origin: "https://whiteboard-client-t519.onrender.com", // Allow all origins, you can restrict it to a specific origin for security
     methods: ["GET", "POST"], // Allowed HTTP methods
   },
 });
